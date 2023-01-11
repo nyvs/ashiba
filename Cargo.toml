@@ -1,0 +1,17 @@
+[package]
+name = "ashiba"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["Jan Strathmann <jwstrathmann@gmail.com>"]
+keywords = ["tui", "text interface", "tui framework", "command-line"]
+categories = ["command-line-interface"]
+description = "tui framework, based on tui-rs"
+repository = "https://github.com/nyvs/ashiba"
+homepage = "https://github.com/nyvs/ashiba"
+
+[dependencies]
+crossterm = "0.25.0"
+tui = "0.19.0"
+unicode-width = "0.1.10"
